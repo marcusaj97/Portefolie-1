@@ -5,7 +5,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-	// write your code here
+	Circle c = new Circle();
+    c.set(2,3,10);
+    System.out.println(c.returnCentrum());
 
     }
 }
