@@ -7,4 +7,8 @@ abstract public class shape {
     public String returnCentrum() { return  this.x +", "+ this.y;
     }
 
+    public double dist(float x, float y){
+        return Math.sqrt(Math.pow(x-this.x,2)+Math.pow(y-this.y, 2));
+    }
+
 }
