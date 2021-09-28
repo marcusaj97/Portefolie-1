@@ -4,23 +4,29 @@ package com.company;
 	public class Square extends shape{
 
 
-        public static void main(String[] args){
-            double bredde, højde, areal, omkreds;
 
-            bredde = 5;
+            double bredde, højde;
 
-            højde = 10;
+            public void set(float b, float h, float x, float y){
 
+                this.bredde=b;
+                this.højde=h;
+                this.x=x;
+                this.y=y;
+            }
 
+public double area(){
+                return this.bredde * this.højde;
 
-            areal = bredde * højde;
-            omkreds = 2 * (bredde + højde);
+}
+public double circumference(){
+                return 2 * (this.bredde + this.højde);
+}
 
-            System.out.println(areal);
-            System.out.println(omkreds);
+           // areal = bredde * højde;
+           // omkreds = 2 * (bredde + højde);
+
 
 
 
         }
-
-    }
