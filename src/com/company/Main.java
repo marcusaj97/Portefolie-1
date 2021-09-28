@@ -10,5 +10,6 @@ public class Main {
     System.out.println(c.returnCentrum());
     System.out.println(c.area());
     System.out.println(c.circumference());
+    System.out.println(c.pointoverlap(12,3));
     }
 }
