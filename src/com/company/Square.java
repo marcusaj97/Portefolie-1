@@ -1,7 +1,9 @@
 package com.company;
 
 
-	public class Square extends shape{
+import java.security.PublicKey;
+
+public class Square extends shape{
 
 
 
@@ -26,6 +28,11 @@ public double circumference(){
            // areal = bredde * højde;
            // omkreds = 2 * (bredde + højde);
 
+
+        public boolean pointoverlap(float x, float y){
+
+            return x > this.x - this.bredde && x < this.x + this.bredde && y > this.y - this.højde && y < this.y + this.højde;
+        }
 
 
 
