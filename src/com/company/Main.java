@@ -8,6 +8,7 @@ public class Main {
 	Circle c = new Circle();
     c.set(2,3,10);
     System.out.println(c.returnCentrum());
-
+    System.out.println(c.area());
+    System.out.println(c.circumference());
     }
 }

@@ -1,4 +1,5 @@
 package com.company;
+import java.lang.Math;
 
 public class Circle extends shape {
 
@@ -8,6 +9,16 @@ public class Circle extends shape {
         this.radius = radius;
         this.x = x;
         this.y = y;
+    }
+
+    public double area(){
+        return Math.PI * Math.pow(this.radius, 2);
+// Udregner cirkel areal
+    }
+
+    public double circumference(){
+        return Math.PI * (this.radius * 2);
+
     }
 
 }
