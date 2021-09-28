@@ -31,7 +31,7 @@ public class Main {
     System.out.println(t.returnCentrum());
     System.out.println(t.area());
     System.out.println(t.circumference());
-
+    System.out.println(t.pointoverlap(4,5));
 
 
     }
