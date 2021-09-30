@@ -27,11 +27,11 @@ public class Main {
     System.out.println("Her starter trekant");
 
     Triangles t = new Triangles();
-    t.set(10,20,4,5);
+    t.set(10,20,10,5);
     System.out.println(t.returnCentrum());
     System.out.println(t.area());
     System.out.println(t.circumference());
-    System.out.println(t.pointoverlap(4,5));
+    System.out.println(t.pointoverlap(11,17));
 
 
     }

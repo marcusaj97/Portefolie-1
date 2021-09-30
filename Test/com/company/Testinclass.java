@@ -26,7 +26,7 @@ class Testinclass{
                 "Circumference burde virke circle");
         assertEquals(4.0, s.circumference(),
                 "Circumference burde virke firekant");
-        assertEquals(3.414213562373095, t.circumference(),
+        assertEquals(3.23606797749979, t.circumference(),
                 "Circumference burde virke trekant");
     }
 
@@ -49,7 +49,7 @@ class Testinclass{
                 "area burde virke circle");
         assertEquals(1.0, s.area(),
                 "area burde virke firekant");
-        assertEquals(0.5, t.area(),
+        assertEquals(-0.5, t.area(),
                 "area burde virke trekant");
     }
     @Test
