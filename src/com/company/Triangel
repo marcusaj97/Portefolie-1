@@ -1,0 +1,26 @@
+package com.company;
+
+public class Triangle extends shape{
+    
+    double bredde, højde;
+    
+    public double set(float b, float h, float x, float y){
+        
+        this.bredde = b;
+        this.højde = h;
+        this.x = x;
+        this.y = y;
+        
+        public double area(){
+            
+            return this.bredde * this.højde * 0.5;
+            
+        }
+        public double circumference(){
+            
+            return
+        }
+        
+    }
+    
+}
