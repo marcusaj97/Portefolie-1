@@ -1,31 +1,32 @@
 package com.company;
 
-
-	public class Square extends shape{
-
+public class Square extends shape{
 
 
-            double bredde, højde;
 
-            public void set(float b, float h, float x, float y){
+            double width, height;
 
-                this.bredde=b;
-                this.højde=h;
+            public void set(float w, float h, float x, float y){
+
+                this.width=w;
+                this.height=h;
                 this.x=x;
                 this.y=y;
             }
 
 public double area(){
-                return this.bredde * this.højde;
+                return this.width * this.height;
 
 }
 public double circumference(){
-                return 2 * (this.bredde + this.højde);
+                return 2 * (this.width + this.height);
 }
 
-           // areal = bredde * højde;
-           // omkreds = 2 * (bredde + højde);
 
+        public boolean pointoverlap(float x, float y){
+
+            return x > this.x - this.width/2 && x < this.x + this.width/2 && y > this.y - this.height/2 && y < this.y + this.height/2;
+        }
 
 
 
