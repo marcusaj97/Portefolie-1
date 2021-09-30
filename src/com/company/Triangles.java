@@ -1,12 +1,11 @@
 package com.company;
 import java.lang.Math;
 
-
 public class Triangles extends shape {
 
     float height, width;
 
-    public void set(float h, float w, float x, float y){
+    public void set(float x, float y, float h, float w){
 
         this.width=w;
         this.height=h;
@@ -24,7 +23,6 @@ public class Triangles extends shape {
         double c = Math.sqrt(Math.pow(this.width,2)+Math.pow(this.height,2));
         return this.width + this.height + c;
 
-        //return Math.sqrt(Math.pow((this.width/2),2)+Math.pow(this.height,2))*2+this.width;
 
     }
 

@@ -6,7 +6,7 @@ public class Square extends shape{
 
             double width, height;
 
-            public void set(float w, float h, float x, float y){
+            public void set(float x, float y, float w, float h){
 
                 this.width=w;
                 this.height=h;
@@ -27,7 +27,5 @@ public double circumference(){
 
             return x > this.x - this.width/2 && x < this.x + this.width/2 && y > this.y - this.height/2 && y < this.y + this.height/2;
         }
-
-
 
         }
